@@ -1,0 +1,91 @@
+$date
+	Sat Mar 19 00:21:52 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module D_flip_flop_tb $end
+$var wire 1 ! q_o $end
+$var wire 1 " q_inv_o $end
+$var reg 1 # d_i $end
+$var reg 1 $ e_i $end
+$scope module D_flip_flop_inst $end
+$var wire 1 # d_i $end
+$var wire 1 $ e_i $end
+$var wire 1 ! q_o $end
+$var wire 1 " q_inv_o $end
+$var wire 1 % q_inv1 $end
+$var wire 1 & d2 $end
+$scope module D_latch1 $end
+$var wire 1 # d_i $end
+$var wire 1 $ e_i $end
+$var wire 1 ' r $end
+$var wire 1 ( s $end
+$var wire 1 & q_o $end
+$var wire 1 % q_inv_o $end
+$scope module SR_latch_inst $end
+$var wire 1 % q_inv_o $end
+$var wire 1 & q_o $end
+$var wire 1 ' r_i $end
+$var wire 1 ( s_i $end
+$upscope $end
+$upscope $end
+$scope module D_latch2 $end
+$var wire 1 & d_i $end
+$var wire 1 $ e_i $end
+$var wire 1 ) r $end
+$var wire 1 * s $end
+$var wire 1 ! q_o $end
+$var wire 1 " q_inv_o $end
+$scope module SR_latch_inst $end
+$var wire 1 " q_inv_o $end
+$var wire 1 ! q_o $end
+$var wire 1 ) r_i $end
+$var wire 1 * s_i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+1)
+0(
+1'
+0&
+1%
+1$
+0#
+1"
+0!
+$end
+#10000
+0"
+1!
+0%
+0)
+1*
+1&
+0'
+1(
+1#
+#20000
+1%
+1"
+0(
+0*
+0#
+0$
+#40000
+0!
+1)
+0&
+1"
+1'
+0*
+1$
+#50000
